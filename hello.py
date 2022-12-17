@@ -27,6 +27,6 @@ def main():
     tft.rotation(1)
 
     tft.fill(st7789.RED)
-    center("Hello 02")
+    center("Hello 00")
 
 main()

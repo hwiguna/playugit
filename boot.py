@@ -10,8 +10,7 @@ urepl.wificonnect()
 print("wifi Connected")
 
 print("About to pull files from github...")
-#ugit.pull_all_files()
-
+ugit.pull_all_files()
 print("pull_all_files() completed!")
 
 print("running Hello.py...")
