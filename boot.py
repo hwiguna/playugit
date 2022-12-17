@@ -7,7 +7,7 @@ import ugit
 print("ugit imported")
 
 urepl.wificonnect()
-print("wifi Connected)
+print("wifi Connected")
 
 print("About to pull files from github...")
 #ugit.pull_all_files()
