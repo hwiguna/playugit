@@ -3,5 +3,5 @@
 user = 'hwiguna'
 repository = 'playugit'
 
-ignore_files = ['urepl.py','urepl_config.py']
+ignore_files = ['urepl.py','urepl_config.py','ugit.py']
 
