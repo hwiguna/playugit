@@ -18,9 +18,9 @@ global internal_tree
 #### -------------User Variables----------------####
 #### 
 # Default Network to connect using wificonnect()
-#ssid = ""
-#password = ""
 import credentials
+ssid = credentials.ssid
+password = credentials.password
 
 # CHANGE TO YOUR REPOSITORY INFO
 # Repository must be public
