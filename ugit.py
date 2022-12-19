@@ -29,7 +29,7 @@ repository = 'playugit'
 
 # Don't remove ugit.py from the ignore_files unless you know what you are doing :D
 # Put the files you don't want deleted or updated here use '/filename.ext'
-ignore_files = ['/ugit.py']
+ignore_files = ['/ugit.py','/credentials.py']
 ignore = ignore_files
 ### -----------END OF USER VARIABLES ----------####
 
@@ -93,9 +93,9 @@ def pull_all(tree=call_trees_url,raw = raw,ignore = ignore,isconnected=False):
   logfile = open('ugit_log.py','w')
   logfile.write(str(log))
   logfile.close()
-  time.sleep(10)
-  print('resetting machine in 10: machine.reset()')
-  machine.reset()
+  #time.sleep(10)
+  #print('resetting machine in 10: machine.reset()')
+  #machine.reset()
   #return check instead return with global
 
 def wificonnect(ssid=ssid,password=password):
